@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import {MatTabsModule} from '@angular/material/tabs';
 
 @Component({
-  selector: 'app-tabs',
+  selector: 'tabs',
   templateUrl: './tabs.component.html',
   styleUrls: ['./tabs.component.css']
 })
