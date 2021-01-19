@@ -6,9 +6,7 @@ import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TabsComponent } from './tabs/tabs.component';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatTabsModule } from '@angular/material/tabs';
-import {MatIconModule} from '@angular/material/icon'
+import { MaterialModule } from './material-module';
 
 
 
@@ -22,9 +20,8 @@ import {MatIconModule} from '@angular/material/icon'
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule,
-    MatTabsModule,
-    MatIconModule
+    MaterialModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
